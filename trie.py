@@ -48,7 +48,6 @@ class Trie:
         if prefix == '':
             return True
         if prefix[0] not in self.stack.keys():
-            print("shit end here, word[0] is {} and stack is {}".format(prefix[0],self.stack))
             return False
         else:
             return self.stack[prefix[0]].startsWith(prefix[1:])
