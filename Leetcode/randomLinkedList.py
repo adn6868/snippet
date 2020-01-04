@@ -25,7 +25,6 @@ class Node:
 		return rv1 + '\n' + rv2 + '\n' + rv3
 
 
-
 def firstCopy(head: 'Node') -> 'Node':
 	rv = Node(head.val)
 	ite1 = head
