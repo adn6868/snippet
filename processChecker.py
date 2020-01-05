@@ -1,3 +1,3 @@
 import os
 
-a = os.popen('')
+a = os.popen("")

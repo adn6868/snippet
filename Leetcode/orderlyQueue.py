@@ -1,12 +1,12 @@
 def orderlyQueue(S: str, K: int) -> str:
     if K >= 2:
-            return ''.join(sorted(S))
+        return "".join(sorted(S))
     else:
         best = S
         for _ in range(len(S)):
             S = S[-1] + S[:-1]
             # print(S)
-            best = min(S,best)
+            best = min(S, best)
         return best
 
 
