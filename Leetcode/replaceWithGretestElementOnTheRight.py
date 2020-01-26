@@ -13,7 +13,7 @@ def test():
     # arr = [[17,18,5,4,6,1]]
     # ans = [[18,6,6,6,1,-1]]
     for i in range(len(arr)):
-        assert ans[i] == replaceElements(arr[i])
+        assert ans[i] == replaceElements(arr[i]), "Incorrect at iteration %d"%i
 
 
 test()
