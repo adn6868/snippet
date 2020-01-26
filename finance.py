@@ -14,7 +14,7 @@ timeLeft = DED_LOL - TODAY
 print(timeLeft)
 PerCenct = AGE / LifeSpan * 100
 
-income_per_day = 3334.89 / 16
+income_per_day = 3334.89 / 6
 income_per_hour = income_per_day / 24
 print(income_per_hour)
 
