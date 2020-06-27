@@ -35,3 +35,6 @@ pprint.pprint("Bad Gold: $" + str(timeLeft.days * expense["bad"] / 30))
 pprint.pprint("Right Now Gold: $" + str(timeLeft.days * expense["rightnow"] / 30))
 pprint.pprint("good Gold: $" + str(timeLeft.days * expense["good"] / 30))
 pprint.pprint("Hell Yeah Gold: $" + str(timeLeft.days * expense["hellyeah"] / 30))
+
+import sys
+print(sys.version)
